@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C452BA992EFB1CB3004A1E08 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C452BA982EFB1CB3004A1E08 /* RealityKitContent */; };
+		C452BAA12EFB1CB3004A1E08 /* ToggleImmersiveSpaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C452BAA02EFB1CB3004A1E08 /* ToggleImmersiveSpaceButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		C452BA932EFB1CB3004A1E08 /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C452BA972EFB1CB3004A1E08 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		C452BAA02EFB1CB3004A1E08 /* ToggleImmersiveSpaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleImmersiveSpaceButton.swift; sourceTree = "<group>"; };
 		C452BAAB2EFB1CB4004A1E08 /* TestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				C452BA972EFB1CB3004A1E08 /* RealityKitContent */,
+				C452BAA02EFB1CB3004A1E08 /* ToggleImmersiveSpaceButton.swift */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C452BAA12EFB1CB3004A1E08 /* ToggleImmersiveSpaceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
