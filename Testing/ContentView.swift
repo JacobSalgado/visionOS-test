@@ -15,6 +15,7 @@ struct ContentView: View {
         VStack {
             Model3D(named: "Scene", bundle: realityKitContentBundle)
                 .padding(.bottom, 50)
+                .background(.black.opacity(0.8))
 
             Text("Hello, world!")
 
